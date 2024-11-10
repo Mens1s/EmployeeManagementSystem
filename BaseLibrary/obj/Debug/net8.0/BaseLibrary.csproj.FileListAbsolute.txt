@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\Projects\EmployeeManagementSystem\DemoEmployeeManagementSystem\BaseLibrary\bin\Debug\net8.0\BaseLibrary.deps.json
+C:\Users\user\Desktop\Projects\EmployeeManagementSystem\DemoEmployeeManagementSystem\BaseLibrary\bin\Debug\net8.0\BaseLibrary.dll
+C:\Users\user\Desktop\Projects\EmployeeManagementSystem\DemoEmployeeManagementSystem\BaseLibrary\bin\Debug\net8.0\BaseLibrary.pdb
+C:\Users\user\Desktop\Projects\EmployeeManagementSystem\DemoEmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Projects\EmployeeManagementSystem\DemoEmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Projects\EmployeeManagementSystem\DemoEmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfo.cs
+C:\Users\user\Desktop\Projects\EmployeeManagementSystem\DemoEmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Projects\EmployeeManagementSystem\DemoEmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.dll
+C:\Users\user\Desktop\Projects\EmployeeManagementSystem\DemoEmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\refint\BaseLibrary.dll
+C:\Users\user\Desktop\Projects\EmployeeManagementSystem\DemoEmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.pdb
+C:\Users\user\Desktop\Projects\EmployeeManagementSystem\DemoEmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\ref\BaseLibrary.dll
+C:\Users\user\Desktop\Projects\EmployeeManagementSystem\DemoEmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.AssemblyReference.cache
