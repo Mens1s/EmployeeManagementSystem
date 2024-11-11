@@ -1,0 +1,41 @@
+# .NET Projeleri İçin Genel Ayarlar
+
+# Derlenen çıktı klasörleri
+bin/
+obj/
+.vs/
+# Kişisel ve ortam bağımlı ayarlar
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider ve Visual Studio için proje ayar dosyaları
+.idea/
+.vscode/
+.vs/
+
+# Paket yönetimi klasörleri
+packages/
+*.nupkg
+*.snupkg
+
+# NuGet cache ve geçici dosyalar
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Yayınlanmış web dosyaları
+wwwroot/
+
+# İşlem sırasında oluşturulan dosyalar
+*.log
+*.lock.json
+*.lock
+
+# Diğer IDE ve editör dosyaları
+_ReSharper*/
+*.[Rr]e[Ss]harper
+[Tt]humbs.db
+[Dd]esktop.ini
