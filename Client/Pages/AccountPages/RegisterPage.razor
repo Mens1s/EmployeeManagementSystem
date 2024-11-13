@@ -1,0 +1,49 @@
+﻿@page "/identity/account/register"
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+
+            <EditForm Enhance Model="User" OnValidSubmit="HandleRegistration">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+
+                <div class="card">
+                    <div class="card-header">Fill this form to login</div>
+                    <div class="card-body">
+                        <div class="form-group mt-3">
+                            <label class="form-label">Fullnama</label>
+                            <InputText @bind-Value="User.Fullname" class="form-control" />
+                        </div>
+                        <div class="form-group mt-3">
+                            <label class="form-label">Email</label>
+                            <InputText @bind-Value="User.Email" class="form-control" />
+                        </div>
+                        <div class="form-group mt-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" @bind="User.Password" class="form-control" />
+                        </div>
+                        <div class="form-group mt-3">
+                            <label class="form-label">ConfirmPassword</label>
+                            <input type="password" @bind="User.ConfirmPassword" class="form-control" />
+                        </div>
+                        <div class="form-group mt-3">
+                            <button type="submit" class="btn btn-outline-primary float-end">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+
+@code {
+    Register User = new();
+
+    async Task HandleRegistration()
+    {
+        var result = await accountService.CreateAsync(User);
+        if (result.Flag) User = new();
+    }
+}
